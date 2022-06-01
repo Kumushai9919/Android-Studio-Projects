@@ -1,2 +1,2 @@
-# 123
-#  Android Projects/모바일 프로그래밍
+# 
+#  Android Projects/모바일 프로그래밍 프로젝트
