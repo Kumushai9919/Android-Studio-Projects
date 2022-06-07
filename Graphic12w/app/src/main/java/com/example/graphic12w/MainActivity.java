@@ -13,11 +13,15 @@ import android.view.MotionEvent;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-    final static int LINE = 1, CIRCLE = 2;
+    final static int LINE = 1;
+    final static int CIRCLE = 2;
     static int curShape = LINE;
 
+    
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setContentView(new MyGraphicView(this));
